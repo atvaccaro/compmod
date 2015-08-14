@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package utd.cso.compmod.sethloz;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -9,7 +9,7 @@ import net.minecraft.creativetab.CreativeTabs;
  * Created by Heather on 8/11/2015.
  */
 public class NyanBlock extends Block {
-    protected NyanBlock(Material mat){
+    public NyanBlock(Material mat){
         super(mat);
 
         this.setBlockName("nyan_block");

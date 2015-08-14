@@ -12,7 +12,7 @@ import java.util.Random;
  * Created by Heather on 8/11/2015.
  */
 public class BlooBlock extends Block {
-    protected BlooBlock(Material mat){
+    public BlooBlock(Material mat){
         super(mat);
         this.setBlockName("bloo_block");
         this.setCreativeTab(CreativeTabs.tabBlock);

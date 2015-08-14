@@ -11,8 +11,8 @@ import java.util.Random;
 /**
  * Created by Liam on 8/10/2015.
  */
-public class BlooBlock extends Block {
-    public BlooBlock(Material mat) {
+public class LiamBlooBlock extends Block {
+    public LiamBlooBlock(Material mat) {
         super(mat);
         this.setBlockName("bloo_block");
         this.setCreativeTab(CreativeTabs.tabBlock);

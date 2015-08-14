@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package utd.cso.compmod.sethloz;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -17,6 +17,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.ArrowLooseEvent;
 import net.minecraftforge.event.entity.player.ArrowNockEvent;
+import utd.cso.compmod.CompMod;
 
 public class MegaBow extends Item
 {
@@ -50,7 +51,7 @@ public class MegaBow extends Item
 
         boolean flag = p_77615_3_.capabilities.isCreativeMode || EnchantmentHelper.getEnchantmentLevel(Enchantment.infinity.effectId, p_77615_1_) > 0;
 
-        if (flag || p_77615_3_.inventory.hasItem(BlooMod.mArrow))
+        if (flag || p_77615_3_.inventory.hasItem(CompMod.mArrow))
         {
             float f = (float)j / 20.0F;
             f = (f * f + f * 2.0F) / 3.0F;
@@ -101,7 +102,7 @@ public class MegaBow extends Item
             }
             else
             {
-                p_77615_3_.inventory.consumeInventoryItem(BlooMod.mArrow);
+                p_77615_3_.inventory.consumeInventoryItem(CompMod.mArrow);
             }
 
             if (!p_77615_2_.isRemote)
@@ -144,7 +145,7 @@ public class MegaBow extends Item
             return event.result;
         }
 
-        if (p_77659_3_.capabilities.isCreativeMode || p_77659_3_.inventory.hasItem(BlooMod.mArrow))
+        if (p_77659_3_.capabilities.isCreativeMode || p_77659_3_.inventory.hasItem(CompMod.mArrow))
         {
             p_77659_3_.setItemInUse(p_77659_1_, this.getMaxItemUseDuration(p_77659_1_));
         }

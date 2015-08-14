@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package utd.cso.compmod.sethloz;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
@@ -8,6 +8,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
+import utd.cso.compmod.CompMod;
 
 /**
  * Created by Heather on 8/13/2015.
@@ -23,7 +24,7 @@ public class WolfArmor extends ItemArmor {
 
     @Override
     public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type) {
-        if (stack.getItem() == BlooMod.mLegs)
+        if (stack.getItem() == CompMod.mLegs)
             return "bloomod:models/armor/wolf_layer_2.png";
         else
             return "bloomod:models/armor/wolf_layer_1.png";
@@ -31,17 +32,17 @@ public class WolfArmor extends ItemArmor {
 
     @Override
     public void onArmorTick(World world, EntityPlayer player, ItemStack armor) {
-        if (player.getCurrentArmor(2) != null && player.getCurrentArmor(2).getItem() == BlooMod.wChest) {
+        if (player.getCurrentArmor(2) != null && player.getCurrentArmor(2).getItem() == CompMod.wChest) {
             //player.addPotionEffect(new PotionEffect(Potion.jump.getId(), 2, 10));
             player.addPotionEffect(new PotionEffect(Potion.regeneration.getId(), 2, 10));
         }
-        if (player.getCurrentArmor(1) != null && player.getCurrentArmor(1).getItem() == BlooMod.wLegs) {
+        if (player.getCurrentArmor(1) != null && player.getCurrentArmor(1).getItem() == CompMod.wLegs) {
             player.addPotionEffect(new PotionEffect(Potion.jump.getId(), 2, 10));
         }
-        if (player.getCurrentArmor(0) != null && player.getCurrentArmor(0).getItem() == BlooMod.wBoots) {
+        if (player.getCurrentArmor(0) != null && player.getCurrentArmor(0).getItem() == CompMod.wBoots) {
             player.addPotionEffect(new PotionEffect(Potion.moveSpeed.getId(), 2, 10));
         }
-        if (player.getCurrentArmor(3) != null && player.getCurrentArmor(3).getItem() == BlooMod.wHelm) {
+        if (player.getCurrentArmor(3) != null && player.getCurrentArmor(3).getItem() == CompMod.wHelm) {
             player.addPotionEffect(new PotionEffect(Potion.digSpeed.getId(), 2, 10));
         }
 

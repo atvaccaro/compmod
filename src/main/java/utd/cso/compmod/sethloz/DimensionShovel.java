@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package utd.cso.compmod.sethloz;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSpade;

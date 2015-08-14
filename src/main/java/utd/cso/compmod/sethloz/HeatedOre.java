@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package utd.cso.compmod.sethloz;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -10,7 +10,7 @@ import java.util.Random;
  * Created by Heather on 8/11/2015.
  */
 public class HeatedOre extends Block {
-    protected HeatedOre(Material mat) {
+    public HeatedOre(Material mat) {
         super(mat);
 
         this.setBlockName("heated_ore");

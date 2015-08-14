@@ -12,7 +12,7 @@ import java.util.Random;
  * Created by Heather on 8/11/2015.
  */
 public class MeltedBlock extends Block {
-    protected MeltedBlock(Material mat){
+    public MeltedBlock(Material mat){
         super(mat);
         this.setBlockName("melted_block");
         this.setCreativeTab(CreativeTabs.tabBlock);

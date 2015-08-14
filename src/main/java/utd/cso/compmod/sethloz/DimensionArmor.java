@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package utd.cso.compmod.sethloz;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
@@ -35,9 +35,9 @@ public class DimensionArmor extends ItemArmor {
             //player.addVelocity(0, 1, 0);
         if (player.getCurrentArmor(1) != null && player.getCurrentArmor(1).getItem() == CompMod.dLegs)
             player.addPotionEffect(new PotionEffect(Potion.jump.getId(), 2, 10));
-        if (player.getCurrentArmor(0) != null && player.getCurrentArmor(0).getItem() == BlooMod.dBoots)
+        if (player.getCurrentArmor(0) != null && player.getCurrentArmor(0).getItem() == CompMod.dBoots)
             player.addPotionEffect(new PotionEffect(Potion.moveSpeed.getId(), 2, 10));
-        if (player.getCurrentArmor(3) != null && player.getCurrentArmor(3).getItem() == BlooMod.dHelm)
+        if (player.getCurrentArmor(3) != null && player.getCurrentArmor(3).getItem() == CompMod.dHelm)
             player.addPotionEffect(new PotionEffect(Potion.fireResistance.getId(), 2, 10));
 
     }

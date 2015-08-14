@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package utd.cso.compmod.sethloz;
 
 
 import cpw.mods.fml.common.IWorldGenerator;
@@ -6,6 +6,7 @@ import net.minecraft.block.Block;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
+import utd.cso.compmod.CompMod;
 
 import java.util.Random;
 
@@ -31,7 +32,7 @@ public class OreManager implements IWorldGenerator {
     }
 
     private void generateSurface(World world, Random random, int x, int z) {
-        this.addOreSpawn(BlooMod.bOre, world, random, x, z, 16, 16, 10, 325, 15, 100);
+        this.addOreSpawn(CompMod.bOre, world, random, x, z, 16, 16, 10, 325, 15, 100);
     }
 
 

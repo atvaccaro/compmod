@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package utd.cso.compmod.sethloz;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -21,14 +21,14 @@ import net.minecraftforge.event.entity.player.ArrowNockEvent;
 /**
  * Created by Heather on 8/13/2015.
  */
-public class ItemBow extends Item
+public class ItemDimensionBow extends Item
 {
     public static final String[] bowPullIconNameArray = new String[] {"pulling_0", "pulling_1", "pulling_2"};
     @SideOnly(Side.CLIENT)
     private IIcon[] iconArray;
     private static final String __OBFID = "CL_00001777";
 
-    public ItemBow()
+    public ItemDimensionBow()
     {
         this.maxStackSize = 1;
         this.setMaxDamage(384);

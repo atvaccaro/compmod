@@ -8,7 +8,7 @@ import net.minecraft.creativetab.CreativeTabs;
  * Created by Heather on 8/12/2015.
  */
 public class DimensionalOre extends Block {
-    protected DimensionalOre(Material mat) {
+    public DimensionalOre(Material mat) {
         super(mat);
 
         this.setBlockName("dimensional_ore");
