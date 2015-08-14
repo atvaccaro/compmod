@@ -17,7 +17,7 @@ public class CompMod
     {
 
     }
-    
+
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
