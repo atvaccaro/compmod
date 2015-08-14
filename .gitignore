@@ -1,0 +1,17 @@
+.gradle/*
+build/*
+eclipse/*
+gradle/*
+out/*
+build.gradle
+compmod.iml
+compmod.ipr
+compmod.iws
+CREDITS-fml.txt
+forge-1.7.10-10.13.4.1448-1.7.10-changelog.txt
+gradlew
+gradlew.bat
+LICENSE-fml.txt
+MinecraftForge-Credits.txt
+MinecraftForge-License.txt
+README.txt
