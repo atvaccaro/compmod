@@ -4,9 +4,9 @@ eclipse/*
 gradle/*
 out/*
 build.gradle
-compmod.iml
-compmod.ipr
-compmod.iws
+*.iml
+*.ipr
+*.iws
 CREDITS-fml.txt
 forge-1.7.10-10.13.4.1448-1.7.10-changelog.txt
 gradlew
