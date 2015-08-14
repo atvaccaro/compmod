@@ -136,27 +136,27 @@ public class CompMod
     {
         //Bloo Block
         lbBlock = new LiamBlooBlock(Material.rock);
-        GameRegistry.registerBlock(bBlock, "bloo_block");
+        GameRegistry.registerBlock(lbBlock, "lbloo_block");
         //Bloo Ore
         bOre = new BlooOre(Material.rock);
-        GameRegistry.registerBlock(bOre, "bloo_ore");
+        GameRegistry.registerBlock(bOre, "lbloo_ore");
         //Rainbow Block
         rBlock = new RainbowBlock(Material.rock);
         GameRegistry.registerBlock(rBlock, "rainbow_block");
         //Bl00 Ingot
         bIngot = new BlooIngot();
-        GameRegistry.registerItem(bIngot, "bloo_ingot");
+        GameRegistry.registerItem(bIngot, "lbloo_ingot");
         //Bloo Stick
         bStick = new BlooStick();
         GameRegistry.registerItem(bStick, "bloo_stick");
         bSword = new BlooSword(BLOOSW);
-        GameRegistry.registerItem(bSword, "bloo_sword");
+        GameRegistry.registerItem(bSword, "lbloo_sword");
         bPick = new BlooPickaxe(BLOOPA);
-        GameRegistry.registerItem(bPick, "bloo_pickaxe");
+        GameRegistry.registerItem(bPick, "lbloo_pickaxe");
         bSpade = new BlooSpade(BLOOPA);
-        GameRegistry.registerItem(bSpade, "bloo_spade");
+        GameRegistry.registerItem(bSpade, "lbloo_spade");
         bAxe = new BlooAxe(BLOOPA);
-        GameRegistry.registerItem(bAxe, "bloo_axe");
+        GameRegistry.registerItem(bAxe, "lbloo_axe");
         flour = new Flour();
         GameRegistry.registerItem(flour, "flour");
         bFilling = new BlooPieFilling();
@@ -411,7 +411,7 @@ public class CompMod
         EntityRegistry.registerGlobalEntityID(EntityMegaArrow.class, "mega_arrow",
                 EntityRegistry.findGlobalUniqueEntityId());
 
-        EntityRegistry.registerModEntity(EntityMegaArrow.class, "mega_arrow", 1, "bloomod", 128, 1, true);
+        EntityRegistry.registerModEntity(EntityMegaArrow.class, "mega_arrow", 1, "compmod", 128, 1, true);
 
 
 
